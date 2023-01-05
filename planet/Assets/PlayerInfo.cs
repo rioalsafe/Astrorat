@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Turret : MonoBehaviour
+
+public class PlayerInfo : MonoBehaviour
 {
-    private Rigidbody2D body;
+    [SerializeField]
+    private Slider hpbar;
+
     // Start is called before the first frame update
     void Start()
     {
-        body = GetComponent<Rigidbody2D>(); 
     }
 
     // Update is called once per frame
