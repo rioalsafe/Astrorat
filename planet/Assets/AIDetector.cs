@@ -110,7 +110,6 @@ public class AIDetector : MonoBehaviour
         yield return new WaitForSeconds(detectionCheckDelay);
         DetectTarget();
         StartCoroutine(DetectionCoroutine());
-
     }
 
     //사격범위 그리기
