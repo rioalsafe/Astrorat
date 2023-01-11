@@ -18,4 +18,9 @@ public class OrbitMob : MonoBehaviour
     {
         transform.RotateAround(target.transform.position, direction, moveSpeed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Colliderd " + collision.name);
+    }
 }
