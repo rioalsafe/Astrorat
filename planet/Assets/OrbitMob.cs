@@ -21,6 +21,8 @@ public class OrbitMob : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+
+      { if(collision.CompareTag("Flymob"))
+   Debug.Log("Colliderd " + collision.name);
     }
 }
