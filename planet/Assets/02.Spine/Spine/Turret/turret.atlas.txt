@@ -1,0 +1,22 @@
+turret.png
+size:512,512
+filter:Linear,Linear
+pma:true
+scale:0.5
+레이어 2
+bounds:251,330,146,112
+rotate:90
+모양 1
+bounds:2,330,247,179
+모양 5
+bounds:2,241,332,87
+모양 6
+bounds:2,203,36,195
+offsets:4,6,45,206
+rotate:90
+모양 8
+bounds:365,243,150,104
+rotate:90
+타원 1
+bounds:471,276,233,38
+rotate:90
